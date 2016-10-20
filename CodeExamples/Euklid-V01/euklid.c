@@ -9,16 +9,13 @@ int main (void) {
      */
     int x = 24;
     int y = 9;
+    int rest = 0;
 
-    while (x > 0) {
-        if (x < y) {
-            /* Vertausche x und y; */
-            int tmp;
-            tmp = x;
-            x = y;
-            y = tmp;
-        }
-        x = x - y;
+while (x%y != 0) {
+    rest = x%y;
+    x = y;
+    y = rest;
+  
     }
 
     /* Ausgabe von y; */
