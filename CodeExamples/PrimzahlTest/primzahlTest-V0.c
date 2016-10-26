@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/*test*/
 int main() {
     int n;              /* zu testende Zahl              */
     int i;              /* Laufvariable der Schleife     */
